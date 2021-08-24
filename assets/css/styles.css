@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #40514e;
+  background-color: #fff;
+  font-family: "Merriweather", serif;
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+  color: #8f8f8f;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+/* ****REGISTRATION SECTION**** */
+
+#registration {
+  background-image: linear-gradient(100deg, rgb(118, 202, 230), rgb(253, 251, 251), rgb(118, 202, 230));
+}
+
+.top-container {
+  padding-top: 150px;
+  position: relative;
+}
+
+.registration-row {
+  text-align: center;
+  padding: 30px;
+}
+
+.registration-row h1 {
+  color: #f16d94;
+  font-family: "Sacramento", cursive;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+@media (max-width: 859px) {
+  .registration-row h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .registration-row h1 {
+    position: relative;
+    bottom: 51%;
+  }
+}
+
+@media (max-width: 680px) {
+  .registration-button {
+    position: relative;
+    bottom: 50%;
+  }
+}
+
+/* REGISTRATION ICONS */
+
+@keyframes icon-animation {
+  0% {
+    background-color: #ecfafa;
+    top: 0;
+  }
+}
+
+.header-icons {
+  animation-name: icon-animation;
+  animation-duration: 4s;
+  filter: drop-shadow(0 0 0.75rem rgb(233, 138, 157));
+  opacity: 0.8;
+  width: 10%;
+}
+
+@media (max-width : 859px) {
+  .header-icons {
+    width: 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-icons {
+    width: 17%;
+  }
+}
+
+@media (max-width: 360px) {
+  .header-icons {
+    width: 20%;
+  }
+}
+
+.header-icons:hover {
+  opacity: 1;
+}
+
+.doctors-img {
+  border-radius: 100%;
+  width: 35%;
+}
+
+@media (max-width : 859px) {
+  .doctors-img {
+    width: 52%;
+  }
+}
+
+@media (max-width : 576px) {
+  .doctors-img {
+    width: 72%;
+  }
+}
+
+@media (max-width : 360px) {
+  .doctors-img {
+    width: 80%;
+  }
+}
+
+.heart-img {
+  position: absolute;
+  top: 2%;
+  left: 44%;
+}
+
+.flask-img {
+  position: absolute;
+  right: 14%;
+  top: 33%;
+}
+
+@media (max-width: 576px) {
+  .flask-img {
+    position: absolute;
+    right: 14%;
+    top: 38%;
+  }
+}
+
+@media (max-width: 360px) {
+  .flask-img {
+    position: absolute;
+    right: 8%;
+    top: 48%;
+  }
+}
+
+.microscope-img {
+  position: absolute;
+  right: 10%;
+  top: 70%;
+}
+
+@media (max-width: 576px) {
+  .microscope-img {
+    position: absolute;
+    right: 5%;
+    top: 65%;
+  }
+}
+
+@media (max-width: 360px) {
+  .microscope-img {
+    position: absolute;
+    right: 5%;
+    top: 75%;
+  }
+}
+
+.bag-img {
+  position: absolute;
+  left: 14%;
+  top: 33%;
+}
+
+@media (max-width: 576px) {
+  .bag-img {
+    position: absolute;
+    left: 14%;
+    top: 38%;
+  }
+}
+
+@media (max-width: 360px) {
+  .bag-img {
+    position: absolute;
+    left: 8%;
+    top: 49.3%;
+  }
+}
+
+.sthetoscope-img {
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+
+@media (max-width: 576px) {
+  .sthetoscope-img {
+    position: absolute;
+    left: 5%;
+    top: 65%;
+  }
+}
+
+@media (max-width: 360px) {
+  .sthetoscope-img {
+    position: absolute;
+    left: 5%;
+    top: 75%;
+  }
+}
+
+/* Registration and Submit Button */
+
+.registration-button {
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+}
+
+.submit-button {
+  background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+  transition: 0.5s;
+  background-size: 200% auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.registration-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.nav-item {
+  margin: 0 10px;
+}
+
+/* *****Steps Section**** */
+
+#steps {
+  padding: 100px 0;
+  background-color: rgb(255,255,255);
+}
+
+.steps-icon {
+  font-size: 3.5rem;
+  color: #f16d94;
+  margin: 1rem;
+}
+
+.steps-icon:hover {
+  color: #ff4c68;
+}
+
+.steps-col {
+  padding: 50px 20px 0;
+}
+
+.steps-heading {
+  height: 57.6px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: rgb(110,180,200);
+  color: #fff;
+}
+
+.test-container {
+  padding: 10%;
+}
+
+@media (max-width: 768px) {
+  .test-heading {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .test-heading {
+    font-size: 1rem;
+  }
+}
+
+.testinomial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+
+#press {
+  background-color: rgb(110,180,200);
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/* Section Prevention */
+
+#prevention {
+  padding: 100px 0;
+}
+
+.prevention-img {
+  width: 100%;
+}
+
+.prevention-col {
+  padding: 5% 0 0;
+}
+
+.prevention-para {
+  padding: 20px 40px;
+}
+
+/* SECTION CONTACT */
+
+#contact {
+  background-image: linear-gradient(100deg, rgb(118, 202, 230), rgb(253, 251, 251), rgb(118, 202, 230));
+  padding: 100px 0;
+}
+
+.form-text.text-muted {
+  margin: 10px;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 50px 0;
+}
+
+.footer-icon {
+  color: #f16d94;
+  font-size: 3rem;
+  margin: 0 25px 15px;
+}
+
+.footer-icon:hover {
+  color: #ff4c68;
+}
+
